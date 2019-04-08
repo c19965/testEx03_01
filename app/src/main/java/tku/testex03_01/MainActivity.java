@@ -11,8 +11,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mTextView01 = (TextView)findViewById(R.id.myTextView01);
-        /*String str_2 = "test 測試 Android TextView";
-        mTextView01.setText(str_2);*/
+        String str_2 = "test 測試 Android TextView";
+        mTextView01.setText(str_2);
     }
 }
 
